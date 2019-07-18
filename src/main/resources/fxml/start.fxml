@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ProgressIndicator?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="335.0" prefWidth="535.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.controllers.StartController">
+      <ProgressIndicator fx:id="spinner" accessibleRole="SPINNER" layoutX="202.0" layoutY="65.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="129.0" prefWidth="132.0" visible="false" />
+      <Label fx:id="spinnerTextLabel" alignment="CENTER" layoutX="135.0" layoutY="203.0" prefHeight="28.0" prefWidth="265.0" textAlignment="CENTER" />
+      <Button fx:id="startButton" layoutX="202.0" layoutY="251.0" mnemonicParsing="false" onAction="#onStartClick" prefHeight="32.0" prefWidth="132.0" text="Connect" />
+</AnchorPane>

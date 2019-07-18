@@ -1,0 +1,3 @@
+matlabPath = D:/Matlab/R2018b/bin/win64;
+scriptsPath = /src/main/matlab/scripts
+networksPath = /src/main/matlab/networks
