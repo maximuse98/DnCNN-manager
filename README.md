@@ -7,9 +7,13 @@ Simple desktop program on Java & Matlab for creating image denoise networks, tra
 1. Add link to your Matlab to win64 folder in Path variable (example: D:\Matlab\R2018b\bin\win64\)
 2. Copy Java class engine.jar from <Matlab root>extern\engines\java\jar\ to project <project root>\lib\
 3. Add this class to your project. On IDEA: File -> Project Structure -> Libraries -> '+' -> Choose engine.jar -> OK
-4. Launch class MainApp. You will see start window. Press Connect button and wait:
+4. Also add charm-glisten-4.4.1.jar from <project root>\lib\
+5. Launch class MainApp. You will see start window. Press Connect button and wait:
+
 ![alt text](./screenshots/start.jpg)
-5. If nothing happens, check 1-3 again. If everything is OK you will see main window:
+
+6. If nothing happens, check 1-3 again. If everything is OK you will see main window:
+
 ![alt text](./screenshots/main.jpg)
 
 ## Built With
